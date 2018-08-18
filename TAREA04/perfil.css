@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(155, 253, 253, 0.74);
+}
+
+#texto1{
+    font-style: italic;
+    text-align: center;
+    color: rgb(68, 0, 255);
+}
+
+pre{
+    text-align: justify;
+}
+
+li{
+    font-weight: bold;
+}
+
+ol{
+    font-style: oblique;
+}
+
+.informacion{
+    text-align: right;
+    color: rgb(68, 0, 255);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
