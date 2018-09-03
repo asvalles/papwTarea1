@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <script src="problema.js"></script> -->
+        <link rel="stylesheet" type="text/css" media="screen" href="estilo problema.css" />
+        <meta charset="utf-8"/>
+        <title>Matematicas</title>
+    </head>
+    <body>
+        <center>
+            <h1>Problema 2</h1>
+            <p>Calcular diagonales D de un poligono de n lados:</p>
+            <form>
+                <input type="text" name="numero" id="cantidad" placeholder="Introdusca numero" required>
+                <br/><input type="button" value="Calcular" id="boton">
+            </form>
+            <p id="respuesta">Resultado</p>
+        </center>
+        
+
+        <script src="jquery-3.3.1.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("#boton").click(function(){
+                var numero = $("#cantidad").val();
+                var resultado = ((numero * (numero - 3))/2);
+                $("#respuesta").text(resultado)
+            });
+        });
+        </script>
+        
+        
+    </body>
+</html>
