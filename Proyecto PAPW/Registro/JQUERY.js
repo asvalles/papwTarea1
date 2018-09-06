@@ -46,6 +46,12 @@ function fun_registrar()
     else
     {
         $("#contrasena").css("background-color","red");
+        //alertify
+        //    .alert("This is an alert dialog.", function(){
+        //    alertify.message('OK');
+        //    });
+        //var notification = alertify.notify('sample', 'success', 5, function(){  console.log('dismissed'); });
+        //alertify.error('Error message');
         return false;
     }
 }
